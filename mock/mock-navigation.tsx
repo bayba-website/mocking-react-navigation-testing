@@ -5,10 +5,10 @@ import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 const Tab = createBottomTabNavigator();
 interface MockProps {
   component: any;
-  params: any;
+  params?: any;
 }
 
-const MockNavigation = ({component, params = {}}: MockProps) => {
+const MockNavigation = ({component, params}: MockProps) => {
   return (
     <NavigationContainer>
       <Tab.Navigator>
