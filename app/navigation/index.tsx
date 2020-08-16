@@ -4,11 +4,6 @@ import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import HomeScreen from '../screens/HomeScreen';
 import SearchScreen from '../screens/SearchScreen';
 
-type PrimaryParamList = {
-  Home: undefined;
-  Search: undefined;
-};
-
 const Tab = createBottomTabNavigator();
 
 const RootTabNavigator = () => (
